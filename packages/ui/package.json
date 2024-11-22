@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./AuthCard": "./src/AuthCard.tsx",
+    "./AuthInputs":"./src/AuthInputs.tsx",
+    "./Loader":"./src/Loader.tsx",
+    "./TextInput":"./src/TextInput.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
